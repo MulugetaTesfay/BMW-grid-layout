@@ -1,0 +1,20 @@
+html { box-sizing: border-box; }
+
+body {
+    margin: 20px;
+    padding: 10px;
+    display: float;
+    flex-direction: column;
+    font-family: sans-serif;
+    min-height: 100vh;
+    border:0.1rem solid pink;
+    background: #698f3f;
+  }
+  .header {
+    display: flex;
+    flex: 0 0 auto;
+    background: #698f3f;
+    padding: 0 1rem;
+    align-items: center;
+    min-height: 3.75rem;
+  }
