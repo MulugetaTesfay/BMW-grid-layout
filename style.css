@@ -1,0 +1,105 @@
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+img { max-width: 100%; }
+
+body{
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+min-height: 100%;
+font-family: sans-serif; 
+ flex-flow:column;
+}
+
+.header{
+   background-color: gray;
+   display: flex;
+   justify-content: left;
+   padding-left: 20em;
+   font-size: 15px
+}
+
+
+.site-logo{
+  align-items: left;
+  font-size:60px;
+  justify-content:left
+  
+  
+}
+.navigation { flex: 0 1 auto; } 
+
+.navigation-list-1{
+  font-size:20px;
+  align-items: left;  
+  justify-content:left;
+}
+.nav-link
+  { color: white; text-decoration: none; }
+.nav-link:hover { text-decoration: underline; } 
+}
+.navigation-last{
+ { flex: 0 1 auto; }  
+}
+.navigation-list-2{
+  display
+  font-weight:bold;
+  align-items: right;  
+  justify-content:space-between;
+  display:;
+}
+.nav-link{
+}
+.first-section{
+
+}
+.empty-box{
+
+}
+.main-title{
+  
+}
+.plan-journey{
+
+}
+
+.form{
+}
+.second-section{
+
+}
+.box-title{
+  
+}
+.third-section{
+
+}
+.box-title-1{
+  
+}
+.fourth-section{
+ width:400px;
+ height:400px;
+display flex;
+ flex: 1 1 auto;
+  flex-flow:column,
+ padding: 15px;
+ margin: 10px;
+ background-color:gray;
+}
+
+.small-box{
+  
+}
+.big-box{
+  
+}
+.footer{
+ background:yellow;
+ display: flex;
+ justify-content: center;
+ justify-content: left;
+ font-size:20px;  
+}
