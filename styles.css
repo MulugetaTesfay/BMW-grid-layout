@@ -137,8 +137,5 @@ flex: 1 1 auto;
 } 
 .footer{
  background: yellow;
- display: flex;
- justify-content: center;
- justify-content: left;
- font-size: 20px;  
+ display: flex; 
 }
