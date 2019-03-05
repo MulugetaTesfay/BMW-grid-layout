@@ -10,7 +10,6 @@ display: flex;
 flex-direction: column;
 min-height: 100%;
 font-family: sans-serif; 
-
 }
 
 .header{
@@ -21,13 +20,10 @@ font-family: sans-serif;
    font-size: 15px
 }
 
-
 .site-logo{
   align-items: left;
   font-size:60px;
-  justify-content:left
-  
-  
+  justify-content:left   
 }
 .navigation { flex: 0 1 auto; } 
 
@@ -37,24 +33,21 @@ font-family: sans-serif;
   float:left;
   flex-direction:column;
 }
-.nav-link{
+.nav-link
   { color: white; text-decoration: none; }
 .nav-link:hover { text-decoration: underline; } 
-}
-.navigation-last{
+
+.navigation-last
  { flex: 0 1 auto; }  
-}
+
 .navigation-list-2{
    list-style: none;
    align-items: right;  
   justify-content:space-between;
 }
  
+.nav-link
 
-}
-.nav-link{
-  
-}
 .first-section{
 
 }
@@ -69,7 +62,7 @@ align-items: left;
 .plan-journey{
 width:100%;
  height:350px;
-display flex;
+display: flex;
 flex: 1 1 auto;
  padding: 15px;
  margin: 10px;
@@ -85,7 +78,7 @@ flex: 1 1 auto;
    flex-direction: column;
    width:100%;
    height:250px;
-   display flex;
+   display: flex;
    flex: 1 1 auto;
    padding: 15px;
    margin: 10px;
@@ -94,7 +87,7 @@ flex: 1 1 auto;
 .box-1{
   width:400px;
  height:400px;
- display flex;
+ display: flex;
  padding: 15px;
  margin: 10px;
  background-color:gray;  
@@ -103,7 +96,7 @@ flex: 1 1 auto;
 .box-2{ 
  width:400px;
  height:400px;
- display flex;
+ display: flex;
  padding: 15px;
  margin: 10px;
  background-color:gray;
@@ -112,7 +105,7 @@ flex: 1 1 auto;
 .box-3{
  width:400px;
  height:400px;
- display flex;
+ display: flex;
  padding: 15px;
  margin: 10px;
  background-color:gray;
@@ -168,18 +161,9 @@ flex: 1 1 auto;
 } 
 
 .box-title{
-align-text: center;
-  text-color:white;
-}
-
-
-
-.small-box{
-  
-}
-.big-box{
-  
-}
+   align-items-center;
+   text-decoration- under-line;
+} 
 .footer{
  background:yellow;
  display: flex;
