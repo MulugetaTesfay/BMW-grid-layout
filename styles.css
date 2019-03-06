@@ -18,7 +18,7 @@ font-family: sans-serif;
    font-size: 15px
 }
 .site-logo{
-  align-items: left;
+  align-items: left-start;
   font-size:60px;
   justify-content:left   
 }
