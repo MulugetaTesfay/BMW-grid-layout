@@ -18,14 +18,14 @@ font-family: sans-serif;
    font-size: 15px
 }
 .site-logo{
-  align-items: left-start;
+  align-items: flex-start;
   font-size:60px;
   justify-content:left   
 }
 .navigation { flex: 0 1 auto; } 
 .navigation-list-1{
   font-size:20px;
-  align-items: left;  
+  align-items: center;  
   float:left;
   flex-direction:column;
 }
