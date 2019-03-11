@@ -91,7 +91,7 @@ body {
   margin: 10px;
 }
 
-.second-section>* {
+.second-section > * {
   width: 400px;
   display: flex;
   padding: 15px;
