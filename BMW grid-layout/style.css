@@ -15,9 +15,9 @@
     color: black;
   }
   
-  .item-1 {
+  .headre {
     grid-column: 1/-1;
-    background: maroon;
+    background: yellow;
   }
   
   .item-2 {
