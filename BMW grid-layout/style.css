@@ -1,71 +1,72 @@
 .item {
-    padding: .30rem;
-    text-align: center;
-  }
-  
-  .container {
-    display: grid;
-    border: 3px solid blue;
-    grid-template-columns: 3fr 2fr 2fr 3fr;
-    grid-gap: .140rem;
-  }
-  
-  .container > * {
-    background: limegreen;
-    color: black;
-  }
-  
-  .header {
-    border: 2px solid red;
-    height: 1.5rem;
-    background: yellow;
-    font-size: 20px;
-    text-align: center;
-  }
-  
-  .item-2 {
+  padding: .30rem;
+  text-align: center;
+}
+.header{
+  background: yellow;
+  text-align:center;
+  height: 1.5rem;
+  font-size:20px;
+  border: 2px solid red;
+}
+.container {
+  display: grid;
+  border: 2px solid blue;
+  grid-template-columns: 3fr 2fr 2fr 3fr;
+  grid-gap: .140rem;
+}
+
+.container > * {
+  background: limegreen;
+  color: black;
+}
+
+
+
+
+.item-1 {
+  grid-column: 1/-1;
+  height: 10rem;
+}
+.item-2,
+.item-3 {
+  grid-column: span 2;
+}
+.item-4{
+  grid-column: 1/-1;
+  background: red;
+}
+.item-5{
+  grid-column: 1/-2;
+  grid-row: span 2;
+}
+.item-9{
+  grid-column: span 2;
+}
+.item-12{
+  grid-column: span 3;
+  grid-row: span 2
+}
+.item-15{
+  grid-column: span 2;
+}
+  .item-17{
     grid-column: 1/-1;
-    height: 10rem;
+    background: purple;
   }
-  .item-3,
-  .item-4 {
-    grid-column: span 2;
-  }
-  .item-5{
-    grid-column: 1/-1;
-    background: red;
-  }
-  .item-6{
-    grid-column: 1/-2;
-    grid-row: span 2;
-  }
-  .item-10{
-    grid-column: span 2;
-  }
-  .item-13{
-    grid-column: span 3;
-    grid-row: span 2
-  }
-  .item-16{
-    grid-column: span 2;
-  }
-    .item-18{
-      grid-column: 1/-1;
-      background: purple;
-    }
-  .item-20{
-    grid-column: span 2;
-  }
-  .item-23{
-    grid-column: span 2;
-  }
-  .item-26{
-    grid-column: span 2;
-  }
-  .footer{
-    grid-column: 1/-1;
-    height: 10rem;
-    background: lightgreen;
-    font-size: 30px;
-  }
-  
+.item-19{
+  grid-column: span 2;
+}
+.item-22{
+  grid-column: span 2;
+}
+.item-25{
+  grid-column: span 2;
+}
+.footer{
+  grid-column: 1/-1;
+  height: 10rem;
+  background: lightgreen;
+  font-size: 30px;
+  text-align:center;
+}
