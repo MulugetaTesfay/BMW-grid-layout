@@ -20,10 +20,6 @@
   background: limegreen;
   color: black;
 }
-
-
-
-
 .item-1 {
   grid-column: 1/-1;
   height: 10rem;
