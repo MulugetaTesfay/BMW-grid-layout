@@ -26,25 +26,32 @@
   .item-2{
     grid-column: 1/-1;
     height: 3rem;
-    background: yellowgreen;
+    background: yellow;
   }
   .item-4{
     grid-column: span 2;
-    
+    background: brown;
+  }
+  .item-5{
+    background: #0000;
   }
   .item-6{
     grid-column: span 3;
      height:4rem;
+     background: blue;
   }
   .item-9{
     grid-column: span 3;
     height: 4rem;
+    background: #3344;
   }
   .item-10{
     grid-column: 1/-1;
     height: 5rem;
+    background: #000fff;
   }
   .item-11{
     grid-column: 1/-1;
     background: tomato;
+    height: 2rem;
   }
