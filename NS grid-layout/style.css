@@ -15,6 +15,7 @@
     grid-gap: .140rem;
     font-size: 20px;
     background: gray;
+    height: 6rem;
   }
   .container > * {
     background:limegreen;
