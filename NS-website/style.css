@@ -1,0 +1,107 @@
+body{   
+  background: gray;  
+ }
+ .header{
+   border-bottom: 1px solid gray;
+   padding-bottom: 2rem;
+   justify-content: space-around; 
+   background: white;
+ }
+ .nav-lists{
+   display: flex;
+   font-size: 20px;
+   justify-content: space-around; 
+ }
+ .big-image{
+   background: white;
+   height: 150px;
+   text-align: center;
+    
+ }
+ .plan-journey{
+   display: flex;
+   background: yellow;
+   height: 100px;
+   width: 40rem;
+   align-content: center;
+ }
+ .three-boxes{
+ background: white;
+   display: flex; 
+   height: 150px;
+   text-align: center;  
+ }
+ .tickets{
+   border: 2px solid #5544;
+   flex: 1;
+ }
+ .most-popular{
+   border: 2px solid #5544;
+   flex: 1;
+ }
+ .customer-service{
+   border: 2px solid #5544;
+   flex: 1;
+ }
+ .sugestion{
+   font-size: 20px;
+   background: white;
+ }
+ .two-boxes{ 
+   background: white;
+   display: flex;
+   height: 150px;
+   text-align: center;
+ }
+ .NS-flex{
+   border: 2px solid #5544;
+   flex: 1;
+ }
+ .ns-business{
+  border: 2px solid #5544;  
+ }
+ .other-two{
+   display: flex;
+   height: 150px;
+   text-align: center;
+   background: white;  
+ }
+ .discover{
+  border: 2px solid #5544;  
+ }
+ .paintings{
+  border: 2px solid #5544;
+   flex: 1; 
+ }
+ .bottom{
+   display: flex;
+   height: 150px;
+   background: white;
+   
+ }
+ .straight{
+   flex: 1;
+ }
+ .products{
+  flex: 1; 
+ }
+ .more-ns{
+  flex: 1;  
+ }
+ .social-media{
+   flex: 1;  
+ }
+ .footer{
+   display: flex;
+   border-top: 1px solid gray;
+   height: 60px; 
+   background: white;
+   padding-top: 3px;
+   margin-top: 3px;
+ }
+ .disclaimer{
+   flex: 1;  
+ }
+ .privacy{
+   flex: 1;
+ }
