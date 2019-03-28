@@ -1,27 +1,18 @@
 body{   
-  background: gray;  
+  background: gray;
+   display: flex;
+   flex-direction: column;
  }
  .header{
    border-bottom: 1px solid gray;
-   padding-bottom: 1rem;
+   padding-bottom: 2rem;
    justify-content: space-around; 
    background: white;
-   display: flex;
-   flex: 1;
  }
  .nav-lists{
    display: flex;
    font-size: 20px;
-   flex: 1;
- }
- .menu{
-   flex: 1;
- }
- .search{
-   flex: 1;
- }
- .mijn-NS{
-   flex: 1;
+   justify-content: space-around; 
  }
  .big-image{
    background: white;
@@ -34,7 +25,12 @@ body{
    background: yellow;
    height: 100px;
    width: 40rem;
-   align-content: center;
+   align-self: center;
+ }
+ .form{
+   display: flex;
+   align-self: center;
+   
  }
  .three-boxes{
  background: white;
@@ -114,5 +110,5 @@ body{
    flex: 1;  
  }
  .privacy{
-   flex: 2;
+   flex: 1;
  }
