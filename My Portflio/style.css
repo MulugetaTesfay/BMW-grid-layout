@@ -8,7 +8,7 @@ body{
      text-align:center;
    }
    h2{
-     fant-family:monaco;
+     font-family:monaco;
      color:blue;
      text-align:center;
      text-decoration:underline;
@@ -43,7 +43,7 @@ body{
      color: blue;
     font-size:20px;
     text-align:left;
-    text-color:silver;
+    text-decoration:rgb(167, 80, 80);
      padding:20px;
      width:400px;
      height:200px;
