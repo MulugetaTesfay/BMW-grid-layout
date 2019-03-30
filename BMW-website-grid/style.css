@@ -1,0 +1,81 @@
+.item {
+    padding: .30rem;
+    text-align: center;
+    border: 1px solid gray;
+  }
+  .header{
+    background: white;
+    text-align:center;
+    height: 5rem;
+    font-size:20px;
+    border: 1px solid gray;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 3fr;
+    
+  }
+  .container > * {
+    background: white;
+    color: black;
+  }
+  .item-1 {
+    grid-column: 1/-1;
+    height: 15rem;
+    
+  }
+  .item-2,
+  .item-3 {
+    grid-column: span 2;
+    min-height: 8rem;
+  }
+  .item-4{
+    display: grid;
+    grid-column: 1/-1;
+    height: 6rem;
+  }
+  .all-bmw{
+    font-size: 20px; 
+  }
+  .item-5{
+    grid-column: 1/-2;
+    grid-row: span 2;
+    height: 10rem;
+  }
+  .item-9{
+    grid-column: span 2;
+    min-height: 8rem;
+  }
+  .item-12{
+    grid-column: span 3;
+    grid-row: span 2;
+    min-height: 8rem;
+  }
+  .item-15{
+    grid-column: span 2;
+    height: 8rem;
+  }
+    .item-17{
+      grid-column: 1/-1;
+      height:10rem;
+    }
+  .item-19{
+    grid-column: span 2;
+    height:10rem;
+  }
+  .item-22{
+    grid-column: span 2;
+    height:10rem;
+  }
+  .item-25{
+    grid-column: span 2;
+    height:10rem;
+  }
+  .footer{
+    grid-column: 1/-1;
+    height: 10rem;
+    background: lightgreen;
+    font-size: 30px;
+    text-align:center;
+  }
+  
