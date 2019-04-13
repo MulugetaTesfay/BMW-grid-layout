@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #262626;
+  --gray: #4d4d4d;
+  --white: #ffffff;
+}
+
+html, body {
+  color: var(--black);
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column; 
+}
+.header{  
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between; 
+ font-size: 15px;
+ height: 90px;
+ width: 1130px;
+ background: white;
+ border: 1px solid bisque;
+}
+.lists{
+display: flex;
+justify-content: space-between; 
+font-size: 12px;
+align-items: center;
+height: 50px;
+color: blue;
+text-decoration: none;
+}
+.search{  
+  font-size: 25px; 
+  text-decoration: none;  
+}
+.logo{
+display: flex;
+background: white;
+padding-top: 9rem;
+
+}
+.vertical-line{
+  border:  .025rem solid #4455;
+  height: 50px;
+  width: px;
+}
+.globe{
+font-size: 25px;
+text-decoration: none; 
+}
+
+.hero{
+display:flex;
+width: 100%;
+border-bottom: 1px solid black;
+flex-direction: column-reverse;
+flex-direction: column;
+
+}
+.inspire{
+font-size: 30px;
+}
+.read {
+  padding-left: 3rem;
+  width: 10rem;
+}
+.read {
+  color: var(--gray);
+  border: 2px solid var(--gray);
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 40px;
+  
+  
+}
+.read .button.gray:hover {
+  background: var(--gray);
+  color: var(--white, white);
+}
+.boxes{
+display: flex;
+width: 100%;
+
+
+
+}
+.box-1{
+
+height: 300px;
+border-right:1px solid black;
+width: 789px;
+
+
+}
+.box-2{
+height: 300px;
+width: 50%;
+
+}
+.quoted-text{
+font-size: 25opx;
+margin-bottom: 2rem;
+
+}
+
+.lists .blue:hover {
+  background: var(--blue);
+  color: var(--white, white);
+}
