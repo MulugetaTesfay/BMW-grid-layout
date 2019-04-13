@@ -1,0 +1,380 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #242624;
+    --gray: #4d4d4d;
+    --white: #ffffff;
+}
+body{   
+  display: flex;
+  flex-direction: column;
+  width: 1100px;
+  height: 100%;
+}
+.header{    
+  width: 1450px;
+  height: 60px;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+}
+.ul-lists{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;  
+  height: 90px;
+  padding-right: 6rem;
+  width: 1100px;
+  text-decoration: none;
+  padding-bottom: 2rem;
+}
+.search-icon{
+  height: 1.5rem;
+  padding-top: 0.1rem;
+  padding-left: 25rem;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.menu-icon{
+  height: 16px;
+  margin-right: 70px;
+  text-decoration: none;
+}
+.top-logo{
+  padding-left: 3rem;
+}
+.person{
+ height: 1.5rem;
+  width: 1.3rem;
+  margin-right: 6px;
+  padding-top: 0.5rem;
+  text-decoration: none;
+}
+.uk-flag{
+  height: 0.7rem;
+  width: 1.3rem;
+  margin-right: 8px;
+  text-decoration: none;
+  
+}
+.plan-journey{
+  padding-top: 5rem;
+  color: #191e4a;
+  font-size: 40px;
+  padding-left: 9rem;
+}
+.dep-arri{
+  display: flex;
+  font-size: 18px;
+  padding-top: 2rem;
+  padding-left: 7rem;
+}
+.departure{
+  padding-left: 2.5rem;
+  text-decoration: underline;
+  color: #191e4a;
+}
+.arrival{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.rectangle{
+  height: 1.1rem;
+  width: 1.2rem;
+  border: 1px solid gray;
+  
+}
+.today{
+  padding-left: 1.6rem;
+}
+.bracket{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.icon-clock{
+  height: 1.5rem;
+  width: 1.5rem;
+       
+}
+.time{
+  padding-left: 2rem;
+}
+.bracket-two{
+   padding-left: 2rem;
+   padding-right: 2rem;
+}
+.icon-circle{
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.now{
+ padding-left: 2rem;
+  padding-left: 2rem;
+   padding-right: 2rem;
+}
+.setting{
+   height: 1.5rem;
+   width: 1.5rem;   
+}
+.option{
+  padding-left: 2rem;
+}
+.blue-box{
+  display: flex;
+  flex-direction: column;
+  background: blue;
+  width: 7rem;
+  height: 3rem;
+  border: 1px solid blue;
+  margin-left: 10rem;
+  border-radius: 5px;
+  text-align: center;
+  justify-content: space-around;
+  padding-right: 1rem;
+}
+.big-image{
+  height: 400px;
+  width:1000px;
+  display: flex;
+  align-self: center;
+  border: 1px solid gray;
+  margin-left: 10rem; 
+}
+.check-box{
+  background: yellow;
+  height: 400px;
+  width: 1450px;
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+}
+.two-checks{
+  display: flex;
+  align-self: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 2rem;
+}
+.button-a{
+  height: 3rem;
+  width: 30em;
+  background: white;
+  margin-right: 2rem;
+  padding-top: 1rem;
+}
+.arrow{
+ width: 4rem;
+  height: 3rem;
+}
+.button-b{
+ height: 3rem;
+  width: 30em;
+  background: white;
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+.three-boxes{
+  display: flex;
+ margin-left: 10rem;
+  
+  height: 500px;
+  width: 1000px;
+  align-self: center;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+.under-tickets{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid gray;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+}
+.under-popular{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid #5544;
+  flex: 1;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin-left: 2rem;
+  border: 1px solid gray;
+  
+}
+.most-popular{
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  padding-bottom: 1rem;
+}
+.customer-service{
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  padding-bottom: 1rem;  
+}
+.under-customer-service{
+  border: 1px solid #5544;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid #5544;
+  flex: 1;
+  padding-left: 1rem;
+  padding-top: 2rem;
+  justify-content: space-around;
+  border: 1px solid gray;
+  margin-left: 2rem;
+}
+.tickets{
+ font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  padding-bottom: 1rem;  
+}
+.sugestion{
+  font-size: 40px;
+  padding-left: 3.5rem;
+  color: darkblue;
+  margin-left: 5rem;
+}
+.two-boxes{ 
+  background: white;
+  display: flex;
+  height: 300px;
+  text-align: center;
+  width: 1000px;
+  align-self: center;
+  padding-bottom: 1rrem;
+  margin-left: 10rem;
+}
+.NS-flex{
+  border: 2px solid #5544;
+  flex: 1;
+}
+.ns-business{
+ border: 2px solid #5544;  
+}
+.other-two{
+  background: white;
+  display: flex;
+  height: 300px;
+  text-align: center;
+  width: 1000px;
+  align-self: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-left: 10rem;
+}
+.discover{
+ border: 2px solid #5544;  
+}
+.paintings{
+ border: 2px solid #5544;
+  flex: 1; 
+}
+.bottom{
+  display: flex;
+  height: 250px;
+  background: white;
+  padding-top: 2.5rem;
+  border-top: 1px solid #4455;
+  justify-content: space-around;
+  padding-left: 1rem;
+  padding-right: 1rem; 
+  
+}
+.under-straight{
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+.straight{
+  font-size: 20px;
+  color: darkblue;
+  padding-right: 1rem;
+}
+.under-products{
+ justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem; 
+}
+.products{
+ font-size: 20px;
+ color: darkblue;  
+}
+.under-more-ns{
+ justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4.6rem;
+}
+.more-ns{
+ font-size: 20px;
+ color: darkblue;
+}
+.under-social-media{
+ justify-content: space-between;
+  display: flex;
+  flex-direction: column; 
+  padding-bottom: 2rem;
+}
+.social-media{
+  font-size: 20px;
+  color: darkblue;
+  padding-bottom: 1rem;
+  
+}
+.facebook{
+  height: 1rem;
+  width: 1rem;
+  margin-right: 1rem;
+}
+.twitter{
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;  
+}
+.instagram{
+  height: 1.5rem;
+  width: 2.5rem;
+  
+}
+.youtube{
+  height: 2.4rem;
+  width: 2rem;
+  margin-right: 0.5rem;  
+}
+.linkedin{
+ height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;  
+}
+.footer{
+  display: flex;
+  border-top: 1px solid gray;
+  height: 80px; 
+  background: white;
+  padding-top: 2rem;
+ 
+}
+.disclaimer{
+ padding-left: 4rem; 
+  
+}
+.privacy{
+  flex: 1;
+  padding-left: 5rem;
+}
+.bottom-logo{
+  padding-right: 4rem;
+  padding-bottom: 1rem;
+}
