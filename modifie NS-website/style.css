@@ -11,12 +11,17 @@ body{
   flex-direction: column;
   width: 100%;
   height: 100%;
+  background: rgb(245, 239, 239)
 }
 .header{    
-  width: 100%;
-  height: 50px;
-  border-bottom: 1px solid gray;
-  text-decoration: none;
+    box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+    background: #fff;
+    left: 0;
+    height: 65px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 520;
 }
 .li-lists{
   display: flex;
@@ -25,9 +30,9 @@ body{
   font-size: 18px;  
   height: 90px;
   padding-right: 6rem;
-  width: 1100px;
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
   text-decoration: none;
+  list-style: none;
 }
 
 .search-icon{
@@ -39,14 +44,16 @@ body{
  text-decoration: none;
 }
 .menu-icon{
-  height: 2rem;
+  height: 1.5rem;
   width: 2rem;
-  margin-right: 30px; 
+  margin-right: 30px;
+  margin-top: 1rem; 
 }
 .top-logo{
   height: 3rem;
   width: 3rem;
-  margin-right: 30px;  
+  margin-right: 20px;
+  padding-top: 1.5rem;   
 }
 .person{
   height: 2rem;
@@ -64,65 +71,75 @@ body{
 }
 .plan-journey{
   padding-top: 5rem;
-  color: #191e4a;
+  color: #243b63;
   font-size: 40px;
-  padding-left: 9rem;
+  padding-left: 7rem;
 }
 .dep-arri{
   display: flex;
   font-size: 18px;
   padding-top: 2rem;
   padding-left: 7rem;
+  color: #243b63;
 }
 .departure{
-  padding-left: 2.5rem;
+  padding-left: .125rem;
   text-decoration: underline;
-  color: #191e4a;
+  color: #243b63;
 }
 .arrival{
   padding-left: 1rem;
   padding-right: 1rem;
+  color: #243b63;
 }
 .rectangle{
   height: 1.1rem;
   width: 1.2rem;
   border: 1px solid gray;
-  
+  color: #243b63;
 }
 .today{
   padding-left: 1.6rem;
+  color: #243b63;
 }
 .bracket{
   padding-left: 2rem;
   padding-right: 2rem;
+  color: #243b63;
 }
 .icon-clock{
   height: 1.5rem;
   width: 1.5rem;
-       
+  color: #243b63;     
 }
 .time{
   padding-left: 2rem;
+  color: #243b63;
 }
 .bracket-two{
    padding-left: 2rem;
    padding-right: 2rem;
+   color: #243b63;  
 }
 .icon-circle{
   height: 1.5rem;
   width: 1.5rem;
+  color: #243b63;
 }
 .now{
  padding-left: 2rem;
   padding-left: 2rem;
    padding-right: 2rem;
+   color: #243b63;
 }
 .setting{
    height: 1.5rem;
-   width: 1.5rem;   
+   width: 1.5rem;
+   color: #243b63;   
 }
 .option{
   padding-left: 2rem;
+  color: #243b63;
 }
 .blue-box{
   display: flex;
@@ -132,7 +149,7 @@ body{
   width: 7rem;
   height: 3rem;
   border: 1px solid blue;
-  margin-left: 18rem;
+  margin-left: 15.2rem;
   border-radius: 5px;
   text-align: center;
   justify-content: center;
@@ -140,17 +157,18 @@ body{
   
 }
 .big-image{
-  height: 400px;
-  width:1000px;
+  height: 300px;
+  width:1200px;
   display: flex;
   align-self: center;
   border: 1px solid gray;
-  margin-left: 10rem; 
+  margin-bottom: 2rem;
+  background: #fff; 
 }
 .check-box{
-  background: yellow;
-  height: 400px;
-  width: 1450px;
+  background: #ffc917;
+  height: 450px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   font-size: 50px;
@@ -164,7 +182,7 @@ body{
 }
 .button-a{
   height: 3rem;
-  width: 35em;
+  width: 33.5em;
   background: white;
   color: gray;
   margin-right: 2rem;
@@ -179,44 +197,41 @@ body{
   height: 3rem;
 }
 .button-b{
- height: 3rem;
-  width: 35em;
+  height: 3rem;
+  width: 33.5em;
   background: white;
   color: gray;
   margin-left: 1rem;
   padding-top: 1rem;
 }
 .three-boxes{
-  display: flex;
- margin-left: 10rem;
-  
-  height: 500px;
-  width: 1000px;
+  display: flex;  
+  height: 400px;
+  width: 1200px;
   align-self: center;
-  padding-bottom: 5rem;
-  padding-top: 2rem;
+  margin-bottom: 3rem;
 }
 .under-tickets{
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  border: 1px solid gray;
+  justify-content: space-around;  
   padding-left: 1rem;
   padding-top: 2rem;
   padding-right: 2rem;
+  border: 1px solid gray;
+  background: #fff;
 }
 .under-popular{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 1px solid #5544;
   flex: 1;
   padding-left: 1rem;
   padding-top: 1rem;
   margin-left: 2rem;
   border: 1px solid gray;
-  
+  background: #fff;
 }
 .most-popular{
   font-size: 20px;
@@ -228,20 +243,20 @@ body{
   font-size: 20px;
   font-weight: bold;
   color: blue;
-  padding-bottom: 1rem;  
+  padding-bottom: 1rem;
+   
 }
 .under-customer-service{
-  border: 1px solid #5544;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  border: 1px solid #5544;
   flex: 1;
   padding-left: 1rem;
   padding-top: 2rem;
   justify-content: space-around;
-  border: 1px solid gray;
   margin-left: 2rem;
+  border: 1px solid gray;
+  background: #fff; 
 }
 .tickets{
  font-size: 20px;
@@ -251,19 +266,20 @@ body{
 }
 .sugestion{
   font-size: 40px;
-  padding-left: 3.5rem;
+  padding-left: 3.3rem;
   color: darkblue;
-  margin-left: 5rem;
+  margin-left: 1rem;
+  margin-bottom: 20px;
 }
 .two-boxes{ 
   background: white;
   display: flex;
   height: 300px;
   text-align: center;
-  width: 1000px;
+  width: 1200px;
   align-self: center;
-  padding-bottom: 1rrem;
-  margin-left: 10rem;
+  margin-bottom: .8rem;
+  
 }
 .NS-flex{
   border: 2px solid #5544;
@@ -273,32 +289,33 @@ body{
  border: 2px solid #5544;  
 }
 .other-two{
-  background: white;
   display: flex;
-  height: 300px;
+  height: 350px;
   text-align: center;
-  width: 1000px;
+  width: 1200px;
   align-self: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  margin-left: 10rem;
+  
+  margin-top: .8rem;
 }
 .discover{
- border: 2px solid #5544;  
+ border: 2px solid #5544;
+ background: #fff;  
 }
 .paintings{
  border: 2px solid #5544;
-  flex: 1; 
+  flex: 1;
+  background: #fff; 
 }
 .bottom{
   display: flex;
   height: 250px;
   background: white;
-  padding-top: 2.5rem;
+  padding-top: 2rem;
+  margin-top: 1rem;
   border-top: 1px solid #4455;
   justify-content: space-around;
-  padding-left: 1rem;
-  padding-right: 1rem; 
+  
+  
   
 }
 .under-straight{
