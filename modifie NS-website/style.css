@@ -197,7 +197,8 @@ body{
   align-self: center;
   border: 1px solid gray;
   margin-bottom: 2rem;
-  background: #fff; 
+  background: #fff;
+  border: 1px solid black; 
 }
 .check-box{
   background: #ffc917;
