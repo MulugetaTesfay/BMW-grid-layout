@@ -1,17 +1,13 @@
 *{
     box-sizing: border-box;
 }
-:root {
-    --black: #242624;
-    --gray: #4d4d4d;
-    --white: #ffffff;
-}
 body{   
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background: rgb(245, 239, 239)
+  background: rgb(245, 239, 239);
+  font-family: sans-serif; 
 }
 .header{    
     box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
@@ -84,8 +80,11 @@ body{
 }
 .departure{
   padding-left: .125rem;
-  text-decoration: underline;
-  color: #243b63;
+  text-decoration: none;
+  
+}
+.dep-arri :hover{
+  text-decoration: underline; 
 }
 .arrival{
   padding-left: 1rem;
@@ -127,10 +126,10 @@ body{
   color: #243b63;
 }
 .now{
- padding-left: 2rem;
   padding-left: 2rem;
-   padding-right: 2rem;
-   color: #243b63;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #243b63;
 }
 .setting{
    height: 1.5rem;
@@ -142,27 +141,26 @@ body{
   color: #243b63;
 }
 .blue-box{
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   color: white;
-  width: 7rem;
+  width: 7.5rem;
   height: 3rem;
-  margin-left: 15rem;
-  border-radius: 5px;
+  margin-left: 13rem;
+  border-radius: 4px;
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  background: #065aeb;
-  border: 1px solid blue;
+  background-color: #0063d3;
+  white-space: nowrap;
+  padding: .625rem 1.125rem;
+  box-shadow: inset 0 -0.125rem 0 #004ba0; 
+  font-size: 1rem;
+  font-weight: 400;
 }
-
-.blue-box {
-  background-color: smokeblue;
-  transition: background-color .5s;
-}
-
 .blue-box:hover {
-  background-color: rgb(119, 112, 112);
+  background-color:#004ba0;
+  text-decoration: none;
 }
 .big-image{
   height: 300px;
@@ -321,10 +319,7 @@ body{
   padding-top: 2rem;
   margin-top: 1rem;
   border-top: 1px solid #4455;
-  justify-content: space-around;
-  
-  
-  
+  justify-content: space-around; 
 }
 .under-straight{
   justify-content: space-around;
