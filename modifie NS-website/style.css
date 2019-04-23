@@ -147,11 +147,22 @@ body{
   color: white;
   width: 7rem;
   height: 3rem;
-  margin-left: 15.2rem;
+  margin-left: 15rem;
   border-radius: 5px;
   text-align: center;
   justify-content: center;
   text-decoration: none;
+  background: #065aeb;
+  border: 1px solid blue;
+}
+
+.blue-box {
+  background-color: smokeblue;
+  transition: background-color .5s;
+}
+
+.blue-box:hover {
+  background-color: rgb(119, 112, 112);
 }
 .big-image{
   height: 300px;
