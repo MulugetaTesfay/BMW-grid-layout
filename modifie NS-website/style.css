@@ -43,7 +43,8 @@ body{
   height: 1.5rem;
   width: 2rem;
   margin-right: 30px;
-  margin-top: 1.2rem; 
+  margin-top: 1.2rem;
+  text-decoration: none; 
 }
 .top-logo{
   height: 3rem;
@@ -55,7 +56,8 @@ body{
   width: 1.5rem;
   padding-top: 14px;
   margin-left: 27px;
-  padding-right: 6px;  
+  padding-right: 6px;
+  text-decoration: none;  
 }
 .uk-flag{
   height: 2rem;
@@ -63,6 +65,7 @@ body{
   padding-top: 20px;
   margin-left: 1rem;
   margin-right: 14px;
+  text-decoration: none;
 }
 .plan-journey{
   padding-top: 5rem;
