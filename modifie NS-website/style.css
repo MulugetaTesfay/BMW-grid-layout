@@ -144,21 +144,17 @@ body{
 .blue-box{
   display: flex;
   flex-direction: column;
-  background: blue;
   color: white;
   width: 7rem;
   height: 3rem;
-  border: 1px solid blue;
   margin-left: 15.2rem;
   border-radius: 5px;
   text-align: center;
   justify-content: center;
   text-decoration: none;
-  
-}
 .big-image{
   height: 300px;
-  width:1200px;
+  width: 1200px;
   display: flex;
   align-self: center;
   border: 1px solid gray;
