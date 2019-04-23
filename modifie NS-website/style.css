@@ -18,15 +18,17 @@ body{
     top: 0;
     width: 100%;
     z-index: 520;
+    justify-content: center;
 }
 .li-lists{
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 17px;  
-  height: 90px;
-  padding-right: 4rem;
-  padding-bottom: 5rem;
+  height: 47px;
+  padding-right: 5rem;
+  margin-bottom: rem;
+  padding-bottom: 2rem;
   text-decoration: none;
   list-style: none;
 }
@@ -43,7 +45,7 @@ body{
   height: 1.5rem;
   width: 2rem;
   margin-right: 30px;
-  margin-top: 1.2rem;
+  margin-top: 1.3rem;
   text-decoration: none; 
 }
 .top-logo{
