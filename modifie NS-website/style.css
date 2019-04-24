@@ -250,6 +250,7 @@ body{
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   list-style: none;
+  
 }
 .nav-link{
   text-decoration: none;
@@ -274,7 +275,7 @@ body{
 .ticket{
   font-size: 20px;
   font-weight: bold;
-  color: blue;
+  color: #243b63;
   padding-top: 1.4rem 
 }
 .audience-image{
@@ -309,13 +310,13 @@ body{
 .most-popular{
   font-size: 20px;
   font-weight: bold;
-  color: blue;
+  color: #243b63;
   padding-top: 1rem;
 }
 .customer-service{
   font-size: 20px;
   font-weight: bold;
-  color: blue;
+  color: #243b63;
   padding-bottom: 1rem;  
 }
 .one-person{
@@ -343,7 +344,7 @@ body{
 .tickets{
   font-size: 20px;
   font-weight: bold;
-  color: blue;
+  color:#243b63;
   padding-top: 2rem;  
 }
 .horizontal-line{
