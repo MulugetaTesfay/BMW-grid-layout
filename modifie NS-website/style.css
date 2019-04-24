@@ -25,7 +25,7 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 17px;  
+  font-size: 14px;  
   height: 47px;
   padding-right: 5rem;
   margin-bottom: rem;
@@ -255,7 +255,8 @@ body{
 .nav-link{
   text-decoration: none;
   padding-top: 1rem;
-  color: rgb(23, 23, 209); 
+  color: rgb(23, 23, 209);
+  font-size: 14px; 
 }
 .heading{
   display: flex;
@@ -400,7 +401,8 @@ body{
   padding-top: 2rem;
   margin-top: 1rem;
   border-top: 1px solid #4455;
-  justify-content: space-around; 
+  justify-content: space-around;
+  text-decoration: none; 
 }
 .under-straight{
   justify-content: space-around;
@@ -438,6 +440,9 @@ body{
   display: flex;
   flex-direction: column; 
   padding-bottom: 2rem;
+  text-decoration: none;
+  list-style: none;
+  font-size: 15px;
 }
 .social-media{
   font-size: 20px;
@@ -449,6 +454,7 @@ body{
   height: 1rem;
   width: 1rem;
   margin-right: 1rem;
+  text-decoration: none;
 }
 .twitter{
   height: 1.5rem;
@@ -472,21 +478,37 @@ body{
 }
 .footer{
   display: flex;
+  
   border-top: 1px solid gray;
-  height: 80px; 
-  background: white;
+  height: 75px;
+  width: 100%; 
+  background: #fff;
   padding-top: 2rem;
- 
+  list-style: none;
+  position: relative; 
+  left: 0;
+  top: 0;
+  z-index: 520; 
+}
+.footer{
+  position: relative; 
+    left: 0;
+    top: 0;
+    z-index: 520;
 }
 .disclaimer{
-  padding-left: 4rem; 
+  display: flex;
+   margin-left: 5rem;
+   padding-left: 2rem;
   
 }
 .privacy{
-  flex: 1;
-  padding-left: 5rem;
+padding-left: 2rem;
+margin-left: 3rem;
 }
 .bottom-logo{
-  padding-right: 4rem;
-  padding-bottom: 1rem;
+  margin-left: 40rem;
+  padding-left: 5rem;
+  display: flex;
+  flex: 1; 
 }
