@@ -33,7 +33,6 @@ body{
   text-decoration: none;
   list-style: none;
 }
-
 .search-icon{
  height: 2rem;
  width: 2rem;
@@ -251,35 +250,66 @@ body{
   margin-bottom: 3rem;
   list-style: none;
 }
+.nav-link{
+  text-decoration: none;
+  padding-top: 1rem;
+  color: rgb(23, 23, 209); 
+}
+.heading{
+  display: flex;
+}
 .under-tickets{
   flex: 1;
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: space-around;  
-  padding-left: 1rem;
-  padding-top: 2rem;
+  padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   border: 1px solid gray;
   background: #fff;
+}
+.ticket{
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  padding-top: 1.4rem 
+}
+.audience-image{
+  width: 8rem;
+  height: 5rem;
+  justify-content: flex-end;
+  margin-left: 5rem;
+  padding-left: 1rem;
+  padding-bottom: 2.5rem;
 }
 .under-popular{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   flex: 1;
-  padding-left: 1rem;
-  padding-top: 1rem;
+  padding-left: 2rem;
   margin-left: 2rem;
   border: 1px solid gray;
   background: #fff;
   padding-bottom: 3rem;
+  width: 100%;
+}
+.ov-image{
+  width: 2rem;
+  height: 2.5rem;
+  justify-content: flex-end;
+  margin-left: 4rem;
+  padding-left: .125rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
 }
 .most-popular{
   font-size: 20px;
   font-weight: bold;
   color: blue;
-  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 .customer-service{
   font-size: 20px;
@@ -293,12 +323,13 @@ body{
   flex-direction: column;
   justify-content: space-around;
   flex: 1;
-  padding-left: 1rem;
+  padding-left: 2rem;
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   margin-left: 2rem;
   border: 1px solid gray;
-  background: #fff; 
+  background: #fff;
+  width: 100%; 
 }
 .tickets{
   font-size: 20px;
@@ -438,7 +469,7 @@ body{
  
 }
 .disclaimer{
- padding-left: 4rem; 
+  padding-left: 4rem; 
   
 }
 .privacy{
