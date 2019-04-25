@@ -480,8 +480,7 @@ body{
   margin-right: 1rem;  
 }
 .footer{
-  display: flex;
-  
+  display: flex; 
   border-top: 1px solid gray;
   height: 75px;
   width: 100%; 
