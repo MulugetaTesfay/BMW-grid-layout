@@ -493,10 +493,10 @@ body{
   z-index: 520; 
 }
 .footer{
-  position: relative; 
-    left: 0;
-    top: 0;
-    z-index: 520;
+   position: relative; 
+   left: 0;
+   top: 0;
+   z-index: 520;
 }
 .disclaimer{
   display: flex;
