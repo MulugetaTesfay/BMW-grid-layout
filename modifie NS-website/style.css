@@ -283,7 +283,7 @@ body{
   width: 8rem;
   height: 5rem;
   justify-content: flex-end;
-  margin-left: 5rem;
+  margin-left: 2rem;
   padding-left: 1rem;
   padding-bottom: 2.5rem;
 }
@@ -303,7 +303,7 @@ body{
   width: 2rem;
   height: 2.5rem;
   justify-content: flex-end;
-  margin-left: 4rem;
+  margin-left: 2rem;
   padding-left: .125rem;
   margin-bottom: 1rem;
   padding-top: 1rem;
@@ -324,7 +324,7 @@ body{
   width: 4rem;
   height: 5rem;
   justify-content: flex-end;
-  margin-left: 5rem;
+  margin-left: 3rem;
   padding-left: 1rem;
   padding-bottom: 2.5rem;
   background: #fff;
