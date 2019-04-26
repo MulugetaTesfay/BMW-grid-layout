@@ -245,10 +245,10 @@ body{
 .three-boxes{
   display: flex;  
   height: 400px;
-  width: 1100px;
+  width: 1000px;
   align-self: center;
-  margin-bottom: 2rem;
-  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
   list-style: none;
  
   
@@ -363,38 +363,62 @@ body{
 
 }
 .two-boxes{ 
-  background: white;
-  display: flex;
-  height: 300px;
-  text-align: center;
-  width: 1100px;
-  align-self: center;
-  margin-bottom: .8rem;
   
+  display: flex;
+  height: 280px;
+  text-align: center;
+  width: 1000px;
+  align-self: center; 
+  margin-bottom: 1.5rem;
+  margin-top: .6rem;  
 }
-.NS-flex{
-  border: 2px solid #5544;
-  flex: 1;
+.NS-flex{ 
+  width: 700px;
+  background: #fff;
+  margin-right: 0.8rem;
+  padding-right: 0.8rem;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15); 
+}
+.NS-flex{ 
+  background: url(https://www.ns.nl/binaries/_ht_1538662724772/liggend/content/gallery/ns-en/banner-type-a-images/ns-flex-order.jpg)
 }
 .ns-business{
- border: 2px solid #5544;  
+ width: 300px;
+ margin-left: 0.8rem;
+ padding-left: 0.8rem;
+ background: #fff;
+ box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+ margin-bottom: .625rem;
+}
+.ns-business{
+  background: url(https://www.ns.nl/binaries/_ht_1530178406366/tegel/content/gallery/ns-nl/thema-hero-afbeeldingen/zakelijk/zo-reist-nederland-2.jpg)
 }
 .other-two{
   display: flex;
-  height: 350px;
+  height: 280px;
   text-align: center;
-  width: 1100px;
+  width: 1000px;
   align-self: center; 
-  margin-top: .8rem;
+  margin-bottom: 1.5rem;
+  margin-top: .6rem;
 }
 .discover{
- border: 2px solid #5544;
- background: #fff;  
+ width: 300px;
+ background: #fff;
+ margin-right: 1rem;
+ padding-right: 1rem;
+ box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);   
 }
 .paintings{
- border: 2px solid #5544;
-  flex: 1;
-  background: #fff; 
+  width: 700px;
+  background: #fff;
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+  color: white;  
+}
+.paintings{
+  background: url(https://www.ns.nl/binaries/_ht_1538661503352/liggend/content/gallery/ns-en/banner-type-a-images/rijksmuseum.jpg)
 }
 .bottom{
   display: flex;
