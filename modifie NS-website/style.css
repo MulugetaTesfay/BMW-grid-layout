@@ -493,6 +493,7 @@ body{
   margin-right: 1rem;
   text-decoration: none;
   font-size: 12px;
+  box-shadow: none!important;
 }
 .twitter{
   height: 1.5rem;
@@ -504,6 +505,7 @@ body{
   height: 1.5rem;
   width: 2.5rem;
   font-size: 12px;
+  padding-right: 1rem;
 }
 .youtube{
   height: 2.4rem;
@@ -512,9 +514,10 @@ body{
   font-size: 12px;  
 }
 .linkedin{
- height: 1.5rem;
+  height: 1.5rem;
   width: 1.5rem;
   margin-right: 1rem;
+  margin-left: .5rem;
   font-size: 12px;  
 }
 .footer{
