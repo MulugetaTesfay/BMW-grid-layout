@@ -425,57 +425,101 @@ body{
 .NS-flex{ 
   background: url(https://www.ns.nl/binaries/_ht_1538662724772/liggend/content/gallery/ns-en/banner-type-a-images/ns-flex-order.jpg)
 }
+.ns-business-container{
+  display: flex;
+  width: 300px;
+  height: 280px;
+  background: #fff;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+  color: white;
+  margin-left: 0.8rem;
+}
 .ns-business-image{
  width: 300px;
- height: 140px;
+ height: 120px;
  background: #fff;
  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
- margin-bottom: .625rem;
  color: white;
- background-repeat: no-repeat;
 }
 .ns-business-image{
   background: url(https://www.ns.nl/binaries/_ht_1530178406366/tegel/content/gallery/ns-nl/thema-hero-afbeeldingen/zakelijk/zo-reist-nederland-2.jpg)
 }
-.ns-businesses{
-  width: 300px;
-  height: 280px;
-  margin-left: 0.8rem;
-  padding-left: 0.8rem;
-  background: #fff;
-  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
-  margin-bottom: .625rem;
-  color: white;
- 
-  
+.ns-business-p-1{
+   padding-top: 8rem;
+   color: #243b63;
+   font-size: 20px;
+   padding-right: 1rem;
 }
-.other-two{
+.ns-business-p-2{
+  color: black;
+  font-size: 13px;
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+.p-products{
+  color: blue;
+  font-size: 13px;
+  padding-right: 1rem;  
+}
+.discover-holland-container{
   display: flex;
   height: 280px;
-  text-align: center;
   width: 1000px;
   align-self: center; 
   margin-bottom: 1.5rem;
-  margin-top: .6rem;
+  margin-top: .6rem;   
 }
-.discover{
- width: 300px;
- background: #fff;
- margin-right: 1rem;
- padding-right: 1rem;
- box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);   
+.discover-ps{
+   width: 300px;
+   height: 280px;
+   background: #fff;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   margin-right: 0.8rem;
+   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);   
 }
-.paintings{
+.rijksmuseum-box{
   width: 700px;
-  background: #fff;
-  margin-left: 0.5rem;
-  padding-left: 0.5rem;
+  height: 280px;
+  margin-left: 0.8rem;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
   color: white;  
+    
 }
-.paintings{
+.rijks-p{
+  margin-left: 2rem;
+  margin-right: 25rem;
+  font-size: 24px;
+  color: white;
+}
+.rijks-button{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 10rem;
+  height: 2.5rem;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #0063d3;
+  margin-left: 2rem;
+  margin-top: 7rem;
+  border-radius: 0.2rem;
+  box-shadow: inset 0 -0.125rem 0 #004ba0; 
+  font-size: 1rem;
+  font-weight: 400; 
+}
+.rijksmuseum-image{
+  width: 700px;
+ height: 280px;
+ background: #fff;
+ box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+ color: white;
+}
+.rijksmuseum-image{
   background: url(https://www.ns.nl/binaries/_ht_1538661503352/liggend/content/gallery/ns-en/banner-type-a-images/rijksmuseum.jpg)
 }
+
 .bottom{
   display: flex;
   height: 250px;
