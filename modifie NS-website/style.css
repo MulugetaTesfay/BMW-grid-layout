@@ -425,17 +425,29 @@ body{
 .NS-flex{ 
   background: url(https://www.ns.nl/binaries/_ht_1538662724772/liggend/content/gallery/ns-en/banner-type-a-images/ns-flex-order.jpg)
 }
-.ns-business{
+.ns-business-image{
  width: 300px;
- margin-left: 0.8rem;
- padding-left: 0.8rem;
+ height: 140px;
  background: #fff;
  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
  margin-bottom: .625rem;
  color: white;
+ background-repeat: no-repeat;
 }
-.ns-business{
+.ns-business-image{
   background: url(https://www.ns.nl/binaries/_ht_1530178406366/tegel/content/gallery/ns-nl/thema-hero-afbeeldingen/zakelijk/zo-reist-nederland-2.jpg)
+}
+.ns-businesses{
+  width: 300px;
+  height: 280px;
+  margin-left: 0.8rem;
+  padding-left: 0.8rem;
+  background: #fff;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
+  margin-bottom: .625rem;
+  color: white;
+ 
+  
 }
 .other-two{
   display: flex;
