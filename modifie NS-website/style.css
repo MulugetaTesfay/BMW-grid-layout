@@ -195,7 +195,7 @@ body{
   text-decoration: none;
 }
 .big-image{
-  height: 320px;
+  height: 350px;
   width: 1000px;
   display: flex;
   align-self: center;
@@ -289,6 +289,14 @@ body{
   background: none;
   font-weight: bold;
   padding-right: 1rem;
+}
+.other-horizontal-line{
+  display: flex;
+  width: 970px;
+  border-top: .0625rem solid #e6b70e;
+  margin-top: -14rem;
+  align-self: center;
+
 }
 .three-boxes{
   display: flex;  
