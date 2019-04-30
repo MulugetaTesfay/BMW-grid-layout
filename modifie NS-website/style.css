@@ -203,6 +203,7 @@ body{
   margin-bottom: 2rem;
   background: #fff;
   margin-top: -5rem;
+  cursor: pointer;
 }
 .big-image{
   background: url(https://www.ns.nl/binaries/_ht_1555319633740/large/content/gallery/ns-nl/carrousel-hero-afbeeldingen/ns-koningsdag.jpg) 
@@ -348,13 +349,11 @@ body{
   padding-bottom: 1rem; 
 }
 .ov-image{
-  width: 2rem;
-  height: 2.5rem;
+  width: 4.5rem;
+  height: 4rem;
   justify-content: flex-end;
   margin-left: 2rem;
-  padding-left: .125rem;
-  margin-bottom: 1rem;
-  padding-top: 1rem;
+  
 }
 .most-popular{
   font-size: 18px;
@@ -363,16 +362,13 @@ body{
 }
 .customer-service{
   font-size: 18px;
-  color: #243b63;
-  padding-bottom: 1rem;  
+  color: #243b63;  
 }
 .one-person{
-  width: 4rem;
-  height: 5rem;
+  width: 6rem;
+  height: 4rem;
   justify-content: flex-end;
-  margin-left: 3rem;
-  padding-left: 1rem;
-  padding-bottom: 2.5rem;
+  margin-left: auto;
   background: #fff;
 }
 .under-customer-service{
@@ -416,13 +412,14 @@ body{
   margin-top: .6rem;  
 }
 .NS-flex{ 
-  width: 700px;
+  width: 100%;
   background: #fff;
   margin-right: 0.8rem;
   padding-right: 0.8rem;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
   color: white;
-  z-index: 10; 
+  z-index: 10;
+  cursor: pointer; 
 }
 .first-p{
   display: flex;
@@ -453,6 +450,9 @@ body{
   font-size: 1rem;
   font-weight: 400;
 }
+.inside-box:hover{
+  background-color: #004ba0; 
+}
 .NS-flex{ 
   background: url(https://www.ns.nl/binaries/_ht_1538662724772/liggend/content/gallery/ns-en/banner-type-a-images/ns-flex-order.jpg)
 }
@@ -464,7 +464,8 @@ body{
   font-family: sans-serif;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
   color: white;
-  margin-left: 0.8rem;
+  margin-left: 1rem;
+  cursor: pointer;
 }
 .ns-business-image{
  width: 330px;
@@ -485,7 +486,7 @@ body{
 .ns-business-p-2{
   color: black;
   font-size: 13px;
-  margin-left: 3rem;
+  margin-left: 4rem;
   margin-right: 2rem;
 }
 .p-products{
@@ -499,7 +500,7 @@ body{
   width: 1000px;
   align-self: center; 
   margin-bottom: 1.5rem;
-  margin-top: .6rem;   
+  margin-top: .6rem; 
 }
 .discover-ps{
    width: 300px;
@@ -524,7 +525,8 @@ body{
   height: 280px;
   margin-left: 0.8rem;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
-  color: white;     
+  color: white;
+  cursor: pointer;     
 }
 .rijksmuseum{
   font-size: 25px;
@@ -553,7 +555,11 @@ body{
   border-radius: 5px;
   box-shadow: inset 0 -0.125rem 0 #004ba0; 
   font-size: 1rem;
-  font-weight: 400; 
+  font-weight: 400;
+  cursor: pointer; 
+}
+.rijks-button:hover{
+background-color:#004ba0; 
 }
 .rijksmuseum-image{
   width: 700px;
