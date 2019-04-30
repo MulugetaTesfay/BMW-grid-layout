@@ -29,7 +29,6 @@ body{
   height: 47px;
   padding-right: 5rem;
   padding-bottom: 2rem;
-  text-decoration: none;
   list-style: none;
 }
 .search-icon{
@@ -588,7 +587,8 @@ background-color:#004ba0;
   margin-top: 1rem;
   border-top: 1px solid #4455;
   justify-content: space-around;
-  text-decoration: none; 
+  text-decoration: none;
+  color: #004ba0; 
 }
 .under-straight{
   justify-content: space-around;
@@ -599,8 +599,9 @@ background-color:#004ba0;
 }
 .straight{
   font-size: 16px;
-  color: darkblue;
+  color: rgb(67, 67, 80);
   padding-right: 1rem;
+  font-weight: bold;
 }
 .under-products{
  justify-content: space-around;
@@ -611,7 +612,8 @@ background-color:#004ba0;
 }
 .products{
   font-size: 16px;
- color: darkblue;  
+ color: rgb(67, 67, 80);
+ font-weight: bold; 
 }
 .under-more-ns{
  justify-content: space-around;
@@ -622,7 +624,8 @@ background-color:#004ba0;
 }
 .more-ns{
  font-size: 16px;
- color: darkblue;
+ color: rgb(67, 67, 80);
+ font-weight: bold;
 }
 .under-social-media{
  justify-content: space-between;
@@ -632,12 +635,13 @@ background-color:#004ba0;
   font-size: 14px;
   text-decoration: none;
   list-style: none;
+  text-decoration: none; 
 }
 .social-media{
   font-size: 16px;
-  color: darkblue;
+  color: rgb(67, 67, 80);;
   padding-bottom: 1rem;
-  
+  font-weight: bold;
 }
 .facebook{
   height: 1rem;
@@ -645,14 +649,12 @@ background-color:#004ba0;
   margin-right: 1rem;
   text-decoration: none;
   font-size: 12px;
-  box-shadow: none!important;
 }
 .twitter{
   height: 1.5rem;
   width: 1.5rem;
   margin-right: 1rem;
-  font-size: 12px;
-  box-shadow: none!important;  
+  font-size: 12px;  
 }
 .instagram{
   height: 1.5rem;
@@ -665,8 +667,7 @@ background-color:#004ba0;
   width: 2rem;
   margin-right: 0.5rem;
   padding-bottom: .3rem;
-  font-size: 12px;
-  box-shadow: none!important;  
+  font-size: 12px; 
 }
 .linkedin{
   height: 1rem;
@@ -674,7 +675,7 @@ background-color:#004ba0;
   margin-right: 1rem;
   margin-left: .5rem;
   font-size: 12px;
-  box-shadow: none!important;  
+  text-decoration: none; 
 }
 .footer{
   display: flex; 
@@ -699,11 +700,14 @@ background-color:#004ba0;
   display: flex;
    margin-left: 5rem;
    padding-left: 2rem;
-  
+   color: rgb(118, 118, 131);
+   text-decoration: none;
 }
 .privacy{
 padding-left: 2rem;
 margin-left: 3rem;
+color: rgb(130, 130, 141);
+text-decoration: none;
 }
 .bottom-logo{
   margin-left: 40rem;
