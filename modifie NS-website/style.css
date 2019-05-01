@@ -419,9 +419,9 @@ body{
   margin-top: .6rem;  
 }
 .NS-flex{ 
-  width: 100%;
+  width: 660px;
   background: #fff;
-  margin-right: 0.8rem;
+  margin-right: .5rem;
   padding-right: 0.8rem;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
   color: white;
@@ -463,6 +463,13 @@ body{
 .NS-flex{ 
   background: url(https://www.ns.nl/binaries/_ht_1538662724772/liggend/content/gallery/ns-en/banner-type-a-images/ns-flex-order.jpg)
 }
+.linear-cover{
+  width: 700px;
+  height: 280px;
+  margin-top: -16rem;
+  opacity: .25;
+  background-image: linear-gradient(180deg,rgba(0,0,0,.4) 0,rgba(0,0,0,.2)); 
+}
 .ns-business-container{
   display: flex;
   width: 350px;
@@ -471,15 +478,16 @@ body{
   font-family: sans-serif;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
   color: white;
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   cursor: pointer;
 }
 .ns-business-image{
- width: 330px;
+ width: 300px;
  height: 120px;
  background: #fff;
  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
  color: white;
+ margin-left: .5rem;
 }
 .ns-business-image{
   background: url(https://www.ns.nl/binaries/_ht_1530178406366/tegel/content/gallery/ns-nl/thema-hero-afbeeldingen/zakelijk/zo-reist-nederland-2.jpg)
@@ -585,7 +593,7 @@ background-color:#004ba0;
   background: white;
   padding-top: 2rem;
   margin-top: 1rem;
-  border-top: 1px solid #4455;
+  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
   justify-content: space-around;
   text-decoration: none;
   color: #004ba0; 
@@ -679,7 +687,6 @@ background-color:#004ba0;
 }
 .footer{
   display: flex; 
-  border-top: 1px solid gray;
   height: 75px;
   width: 100%; 
   background: #fff;
@@ -689,19 +696,14 @@ background-color:#004ba0;
   left: 0;
   top: 0;
   z-index: 520; 
-}
-.footer{
-   position: relative; 
-   left: 0;
-   top: 0;
-   z-index: 520;
+  border-top: .0625rem solid rgb(226, 216, 216); 
 }
 .disclaimer{
   display: flex;
-   margin-left: 5rem;
-   padding-left: 2rem;
-   color: rgb(118, 118, 131);
-   text-decoration: none;
+  margin-left: 5rem;
+  padding-left: 2rem;
+  color: rgb(118, 118, 131);
+  text-decoration: none;
 }
 .privacy{
 padding-left: 2rem;
