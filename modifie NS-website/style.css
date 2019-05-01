@@ -77,7 +77,7 @@ body{
 .dep-arri{
   display: flex;
   font-size: 14px;
-  padding-left: 7rem;
+  padding-left: 6rem;
   padding-bottom: 4rem;
   margin-left: 3rem;
   margin-bottom: 6rem;
@@ -262,7 +262,6 @@ body{
   padding-top: 0.5rem;
   margin-top: 0.9rem;
   padding-left: 1rem;
-  margin-left: 1rem;
 }
 .button-a::nth-word(1) {
   margin-right: 20px;
@@ -295,7 +294,32 @@ body{
   border-top: .0625rem solid #e6b70e;
   margin-top: -14rem;
   align-self: center;
-
+}
+.delays-info{
+  display: flex;
+  font-size: 14px;
+  font-family: sans-serif;
+  padding-left: 8rem;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  color: #243b63;
+  list-style:  none;
+  cursor: pointer; 
+}
+.warning-button{
+  background: url(http://i65.tinypic.com/w8w7ra.png);
+  
+}
+.warning-button{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.info-text{
+  padding-top: .5rem;
+}
+.more-info{
+  padding-top: .5rem;
+  padding-left: 2rem; 
 }
 .three-boxes{
   display: flex;  
@@ -478,7 +502,8 @@ body{
   font-family: sans-serif;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
   color: white;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 2rem;
   cursor: pointer;
 }
 .ns-business-image{
@@ -487,7 +512,6 @@ body{
  background: #fff;
  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
  color: white;
- margin-left: .5rem;
 }
 .ns-business-image{
   background: url(https://www.ns.nl/binaries/_ht_1530178406366/tegel/content/gallery/ns-nl/thema-hero-afbeeldingen/zakelijk/zo-reist-nederland-2.jpg)
@@ -499,10 +523,12 @@ body{
    padding-right: 1rem;
 }
 .ns-business-p-2{
+  align-content: center;
   color: black;
   font-size: 13px;
-  margin-left: 4rem;
-  margin-right: 2rem;
+  margin-left: 3rem;
+  margin-right: 1rem;
+  font-weight: bold;
 }
 .p-products{
   color: blue;
@@ -604,6 +630,7 @@ background-color:#004ba0;
   flex-direction: column;
   padding-bottom: 3rem;
   font-size: 14px;
+  cursor: pointer;
 }
 .straight{
   font-size: 16px;
@@ -617,6 +644,7 @@ background-color:#004ba0;
   flex-direction: column;
   padding-bottom: 3rem;
   font-size: 14px; 
+  cursor: pointer;
 }
 .products{
   font-size: 16px;
@@ -629,6 +657,7 @@ background-color:#004ba0;
   flex-direction: column;
   padding-bottom: 4.6rem;
   font-size: 14px;
+  cursor: pointer;
 }
 .more-ns{
  font-size: 16px;
@@ -691,10 +720,8 @@ background-color:#004ba0;
   width: 100%; 
   background: #fff;
   padding-top: 2rem;
+  font-size: 13px;
   list-style: none;
-  position: relative; 
-  left: 0;
-  top: 0;
   z-index: 520; 
   border-top: .0625rem solid rgb(226, 216, 216); 
 }
@@ -706,14 +733,32 @@ background-color:#004ba0;
   text-decoration: none;
 }
 .privacy{
-padding-left: 2rem;
-margin-left: 3rem;
+padding-left: 1rem;
+margin-left: 1rem;
 color: rgb(130, 130, 141);
 text-decoration: none;
 }
+.cookies{
+  padding-left: 1rem;
+  margin-left: 1rem;
+  color: rgb(130, 130, 141);
+  text-decoration: none; 
+}
+.company-information{
+  padding-left: 1rem;
+  margin-left: 1rem;
+  color: rgb(130, 130, 141);
+  text-decoration: none;  
+}
+.requirements{
+  padding-left: 1rem;
+  margin-left: 1rem;
+  color: rgb(130, 130, 141);
+  text-decoration: none; 
+}
 .bottom-logo{
-  margin-left: 40rem;
-  padding-left: 5rem;
+  margin-left: 22rem;
+  padding-left: rem;
   display: flex;
   flex: 1; 
 }
