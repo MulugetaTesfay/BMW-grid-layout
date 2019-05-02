@@ -294,7 +294,7 @@ body{
   display: flex;
   width: 970px;
   border-top: .0625rem solid #e6b70e;
-  margin-top: -14rem;
+  margin-top: -17rem;
   align-self: center;
 }
 .delays-info{
@@ -303,7 +303,8 @@ body{
   font-family: sans-serif;
   padding-left: 8rem;
   margin-left: 3rem;
-  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
   color: #243b63;
   list-style:  none;
   cursor: pointer; 
