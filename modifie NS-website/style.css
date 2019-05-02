@@ -200,7 +200,6 @@ body{
   width: 1000px;
   display: flex;
   align-self: center;
-  border: 1px solid gray;
   margin-bottom: 2rem;
   background: #fff;
   margin-top: -5rem;
@@ -386,8 +385,7 @@ body{
   width: 4.5rem;
   height: 4rem;
   justify-content: flex-end;
-  margin-left: 2rem;
-  
+  margin-left: 2rem; 
 }
 .most-popular{
   font-size: 18px;
@@ -446,7 +444,7 @@ body{
   margin-top: .6rem;  
 }
 .NS-flex{ 
-  width: 640.7px;
+  width: 648px;
   background: #fff;
   margin-right: rem;
   padding-right: rem;
@@ -588,7 +586,7 @@ body{
   height: 340px;
   background: #fff;
   cursor: pointer;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);  
 }
 .third-block-image{
@@ -626,7 +624,7 @@ body{
 }
 .ns-business-container{
   display: flex;
-  width: 330.3px;
+  width: 320px;
   height: 280px;
   background: #fff;
   font-family: sans-serif;
@@ -636,11 +634,12 @@ body{
   cursor: pointer;
 }
 .ns-business-image{
- width: 310.3px;
+ width: 320.3px;
  height: 130px;
  background: #fff;
  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
  color: white;
+ padding-left: 2rem;
 }
 .ns-business-image{
   background: url(https://www.ns.nl/binaries/_ht_1530178406366/tegel/content/gallery/ns-nl/thema-hero-afbeeldingen/zakelijk/zo-reist-nederland-2.jpg)
@@ -912,8 +911,8 @@ font-size: 14px;
   width: 330px;
   height: 360px;
   background: #fff;
-  cursor: pointer;
   margin-right: .5rem;
+  cursor: pointer;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15); 
 }
 .blauwe-kamer-image{
@@ -941,7 +940,7 @@ font-size: 14px;
   height: 350px;
   background: #fff;
   cursor: pointer;
-  margin-left: 1.5rem;
+  margin-left: 1.3rem;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15); 
 }
 .nachtje-weg-image{
