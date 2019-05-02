@@ -347,7 +347,7 @@ body{
 .under-tickets{
   flex: 1;
   display: flex;
-  width: 330.3px;
+  width: 300.3px;
   flex-direction: column;
   justify-content: space-around;  
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
@@ -374,7 +374,7 @@ body{
   flex-direction: column;
   justify-content: space-around;
   flex: 1;
-  width: 330.3px;
+  width: 300.3px;
   background: #fff;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
   padding-left: 2rem;
@@ -448,8 +448,8 @@ body{
 .NS-flex{ 
   width: 640.7px;
   background: #fff;
-  margin-right: .5rem;
-  padding-right: 0.8rem;
+  margin-right: rem;
+  padding-right: rem;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
   color: white;
   z-index: 10;
@@ -632,8 +632,7 @@ body{
   font-family: sans-serif;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
   color: white;
-  margin-left: 1rem;
-  margin-right: 2rem;
+  margin-left: 1.6rem;
   cursor: pointer;
 }
 .ns-business-image{
@@ -642,8 +641,6 @@ body{
  background: #fff;
  box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);
  color: white;
- padding-left: .5rem;
- padding-right: 1rem;
 }
 .ns-business-image{
   background: url(https://www.ns.nl/binaries/_ht_1530178406366/tegel/content/gallery/ns-nl/thema-hero-afbeeldingen/zakelijk/zo-reist-nederland-2.jpg)
@@ -852,7 +849,7 @@ background-color:#004ba0;
   height: 360px;
   background: #fff;
   cursor: pointer;
-  margin-left: .5rem;
+  margin-left: .3rem;
   box-shadow: 0 0.125rem 0 0 rgba(7,7,33,.15);  
 }
 .third-dagje-image{
